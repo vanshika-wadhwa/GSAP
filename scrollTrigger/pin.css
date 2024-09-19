@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:black;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    overflow-x:hidden;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    padding: 10px;
+}
+#page2 h1{
+    font-size: 40vw;
+    text-transform: uppercase;
+    font-weight: 400;
+    /* transform:translateX(-100%);   text piche chla jaega */
+}
+#page3{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+
+}

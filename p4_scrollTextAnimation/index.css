@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:white;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(8, 8, 8);
+    /* overflow-x:hidden; */
+}
+
+#page1, #page2, #page3{
+    height: 100%;
+    width: 100%;
+    padding: 3vw;
+
+}
+#page1{
+    background-color: red;
+}
+#page2{
+    background-color: black;
+}
+#page3{
+    background-color: yellow;
+}
+#move{
+    background-color: lawngreen;
+    display: flex;
+    /* overflow-x:hidden;  bhr niklna bnd text ka */
+    padding:2vw 0;
+}
+.marque{
+    flex-shrink:0;   /*tag ne khud ko shrink kr liya*/
+    display: flex;
+    align-items: center;
+    gap:3vw;
+    padding: 0 1.5vw;
+    transform:translateX(-100%);  /*last m aake text khali ho jata h loop chaiye*/
+}
+
+.marque i{
+    height: 70px;
+}
+/* .marque h1{
+    font-size: 70px;
+} */

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:black;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(8, 8, 8); */
+    overflow-x:hidden;
+}
+body{
+    overflow-x:hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/OIP.iRIrsC-x9XyYiWnhQEp8OwHaE7?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position:center;
+}
+
+#nav{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:40px 50px;
+    color:white;
+}
+#nav h2{
+    color:white;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    color:white;
+    cursor: pointer; /*menu pr click hone pr navbar aae*/ 
+}
+#full{
+    height:100%;
+    width: 40%;
+    position:absolute;
+    background-color: rgba(255, 255, 255, 0.515);
+    top:0;
+    right: -40%;  /*dur bhagne k liye jitni b width de rhe h right m -width krdo*/
+    backdrop-filter: blur(30px);
+    /* filter:blur(30px); */
+    padding: 30px 50px;
+}
+
+#full h4{
+    font-size: 50px;
+    font-weight: 200;
+ margin: 5px;
+}
+#full i{
+    position: absolute;
+    top:5%;
+    right: 10%;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 600;
+}

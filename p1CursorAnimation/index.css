@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color:black;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(8, 8, 8); */
+    overflow-x:hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cursor{
+    width: 10px;
+    height:10px;
+    background-color: aqua;
+    border-radius: 50%;
+    position:fixed;   /*pages scroll hone pr 1 hi jagha rhe NOTE: position:absolute (1 page k liye bn jaega cursor multiple k liye nhi bnega)*/
+    font-size: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+#image{
+    height: 50vw;
+    width: 30vw;
+    background-color: aquamarine;
+    
+}
+#image img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+   
+    position:absolute;
+    z-index: 10;
+}
